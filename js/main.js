@@ -41,8 +41,8 @@
             infinite: false,
             cssEase: 'linear',
             mobileFirst: true,
-            prevArrow: "<img src='../images/bg-prev.png' class='prev' alt='1'>",
-            nextArrow: "<img src='../images/bg-next.png' class='next' alt='2'>",
+            prevArrow: "<img src='https://1obanov.github.io/Bergoef/images/bg-prev.png' class='prev' alt='1'>",
+            nextArrow: "<img src='https://1obanov.github.io/Bergoef/images/bg-next.png' class='next' alt='2'>",
 
             responsive: [{
 
