@@ -1,2 +1,2 @@
 # Bergoef
-Fully Responsive Website
+Perfectly responsive website
