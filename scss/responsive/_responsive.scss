@@ -1,0 +1,1338 @@
+/* ----------- iPad Pro 12.9" ----------- */
+/* Landscape */
+@media only screen and (min-width: 1366px) and (max-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    #content {
+        #about-me {
+            margin-top: 300px;
+        }
+    }
+
+    #impressions {
+        .slick-slider {
+            overflow: hidden;
+        }
+    }
+}
+
+/* Portrait */
+@media only screen and (min-width: 1024px) and (max-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .container {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #header {
+        bottom: auto;
+        width: 100vw;
+        padding: 25px 50px;
+
+        #logo {
+            background-position: left;
+        }
+
+        .watercolor69 {
+            left: auto;
+            top: -135px;
+            right: 0;
+        }
+    }
+
+    #content {
+        .social-list {
+            padding: 50px;
+            margin-top: 100px;
+            text-align: center;
+            float: none;
+
+            li {
+                display: inline-block;
+
+                .fa-instagram {
+                    padding-left: 0px;
+                }
+
+                .fa-facebook-f {
+                    padding-left: 0px;
+                }
+
+                .fa-tripadvisor {
+                    padding-left: 0px;
+                }
+            }
+        }
+
+        #bonappetit {
+            display: none;
+        }
+
+        .col-11 {
+            text-align: center;
+            width: 100%;
+
+            .header {
+                margin-left: 0;
+                padding-top: 47vh;
+                padding-left: 250px;
+                padding-right: 250px;
+            }
+
+            .button {
+                margin-left: 0;
+                margin-bottom: 100px;
+            }
+        }
+
+        #impressions {
+            .slick-slider {
+                overflow: hidden;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .container {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #header {
+        bottom: auto;
+        width: 100vw;
+        padding: 15px 50px;
+
+        #menu-button {
+            display: block;
+        }
+
+        nav {
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            display: table;
+            z-index: 900;
+            background: #fff;
+            top: -100vh;
+            left: 0;
+            -webkit-transition: top 0.3s ease-in-out;
+            -moz-transition: top 0.3s ease-in-out;
+            -o-transition: top 0.3s ease-in-out;
+            transition: top 0.3s ease-in-out;
+            overflow-y: scroll;
+        }
+
+        .pushed-left {
+            top: 0px;
+            -webkit-transition: top 0.3s ease-in-out;
+            -moz-transition: top 0.3s ease-in-out;
+            -o-transition: top 0.3s ease-in-out;
+            transition: top 0.3s ease-in-out;
+            z-index: -9;
+        }
+
+        #main-nav {
+            .mobile-menu {
+                padding-top: 30vh;
+            }
+        }
+
+        #logo {
+            background-position: left;
+        }
+
+        .watercolor69 {
+            left: auto;
+            top: -135px;
+            right: 0;
+        }
+    }
+
+    #content {
+        .social-list {
+            padding: 50px;
+            margin-top: 100px;
+            text-align: center;
+            float: none;
+
+            li {
+                display: inline-block;
+
+                .fa-instagram {
+                    padding-left: 0px;
+                }
+
+                .fa-facebook-f {
+                    padding-left: 0px;
+                }
+
+                .fa-tripadvisor {
+                    padding-left: 0px;
+                }
+            }
+        }
+
+        #bonappetit {
+            display: none;
+        }
+
+        .col-11 {
+            text-align: center;
+            width: 100%;
+
+            .header {
+                margin-left: 0;
+                padding-top: 6vh;
+                padding-left: 250px;
+                padding-right: 250px;
+            }
+
+            .button {
+                margin-left: 0;
+                margin-bottom: 100px;
+            }
+        }
+
+        #impressions {
+            .slick-slider {
+                overflow: hidden;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    #content {
+        .col-11 {
+            .header {
+                padding-top: 25vh;
+                padding-left: 150px;
+                padding-right: 150px;
+            }
+        }
+
+        #about-me {
+            .left {
+                padding: 0 5px 0 50px;
+            }
+
+            .right {
+                .about-me {
+                    padding: 0 50px;
+                }
+            }
+
+            .services {
+                padding-left: 50px;
+            }
+        }
+
+        .header {
+            padding-top: 0;
+        }
+
+        #menu {
+            .image {
+                padding: 30px 50px;
+            }
+
+            .tabs {
+                .tab {
+                    margin: 0 50px;
+                }
+            }
+
+            .icons {
+                margin: 0 50px;
+                padding: 30px 130px 35px 130px;
+            }
+        }
+
+        #gray {
+            padding: 100px 50px;
+        }
+
+        #happy {
+            .image {
+                padding: 40px 50px;
+            }
+
+            .tabs-2 {
+                .tab {
+                    margin: 0 50px;
+                }
+            }
+        }
+
+        #blog {
+            .blog-images {
+                padding: 10px 50px;
+
+                .img {
+                    height: 200px;
+                }
+
+                .text-area {
+                    .header {
+                        width: 90%;
+                        font-size: 25px !important;
+                    }
+                }
+            }
+
+            .quote {
+                margin-left: 100px;
+            }
+
+            .quote blockquote {
+                padding-right: 25px;
+            }
+        }
+
+        #impressions {
+            .slick-slider {
+
+                .next,
+                .prev {
+                    top: 200px;
+                }
+            }
+        }
+
+        #contact {
+            .form-contact {
+                padding: 0 50px;
+            }
+
+            .borderline {
+                margin: 35px 50px;
+            }
+        }
+
+
+
+    }
+}
+
+@media only screen and (max-width: 736px) {
+    #header {
+
+        #main-nav {
+            .mobile-menu {
+                padding-top: 15vh;
+            }
+        }
+    }
+
+    #content {
+        #about-me {
+            .left {
+                width: 100%
+            }
+        }
+
+
+        #about-me {
+            .right {
+                display: none;
+            }
+        }
+
+        .col-11 {
+            .header {
+                padding-top: 0;
+                padding-left: 50px;
+                padding-right: 50px;
+                font-size: 35px !important;
+            }
+
+            .button {
+                margin-bottom: 0;
+            }
+        }
+
+        .services {
+            padding-left: 30px;
+
+            .col-3 {
+                width: 50%;
+                margin-bottom: 50px;
+            }
+        }
+
+        #gray {
+            padding: 50px 20px;
+
+            .tripadvisor {
+                .col-6 {
+                    width: 100%;
+
+                    .rating {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+
+        #menu {
+            overflow: hidden;
+
+            .title {
+                margin: 20px 20px 10px 20px;
+            }
+
+            .image {
+                padding: 30px 20px;
+            }
+
+            .tabs {
+
+                .tab {
+                    margin: 0 20px;
+
+                    .col-6 {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .icons {
+                padding: 30px 10px 35px 10px;
+                margin: 0 20px;
+            }
+        }
+
+        #gray {
+            .col-6 {
+                width: 100%;
+            }
+
+            .left {
+                h3 {
+                    .watercolor62::before {
+                        top: 50px;
+                    }
+                }
+            }
+
+            .right {
+                float: left;
+            }
+
+            .col-4 {
+                width: 100%;
+            }
+        }
+
+        #happy {
+            .title {
+                margin: 20px 10px 10px 10px;
+            }
+
+            .image {
+                padding: 40px 20px;
+            }
+
+            .tabs-2 {
+                .tab {
+                    margin: 0 20px;
+
+                    .col-6 {
+                        width: 100%;
+                    }
+
+                    .col-4 {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        #gray {
+            .col-8 {
+                display: none;
+            }
+        }
+
+        #blog {
+            .borderline {
+                margin: 35px 20px;
+            }
+
+            .blog-images {
+                padding: 0 20px;
+
+                .col-6 {
+                    width: 100%;
+                    padding: 10px 0;
+                }
+
+                .img {
+                    height: 220px;
+                    margin: 0;
+                    width: 100%;
+                }
+
+                .text-area {
+                    .header {
+                        margin-left: 0;
+                        padding-top: 10px;
+                        width: 85%;
+                    }
+                }
+            }
+
+            .quote {
+                padding: 0 20px;
+                margin-left: 0px;
+
+                blockquote {
+                    padding-right: 10px;
+                }
+            }
+        }
+
+        #impressions {
+            .slick-slider {
+                overflow: hidden;
+                padding: 40px 25px;
+            }
+        }
+
+        #contact {
+            .form-contact {
+                padding: 0 20px;
+                margin-top: 30px;
+
+                .form {
+                    width: 100%;
+
+                    input:not([type="submit"]):not([type="image"]):not([type="button"]):not([type="checkbox"]):not([type="radio"]) {
+                        width: 100% !important;
+                    }
+                }
+            }
+
+            .borderline {
+                margin: 35px 20px;
+            }
+
+            .reservation {
+                padding-left: 0 !important;
+                width: 100%;
+                margin-bottom: 30px;
+            }
+
+            .direction {
+                padding-right: 0 !important;
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+
+@media only screen and (max-width: 414px) {
+    #header {
+        bottom: auto;
+        width: 100vw;
+        padding: 25px 50px;
+
+        #main-nav {
+            .mobile-menu {
+                padding-top: 25vh;
+            }
+        }
+
+        #logo {
+            background-position: left;
+        }
+
+        .watercolor69 {
+            left: auto;
+            top: -135px;
+            right: 0;
+        }
+    }
+
+    #content {
+        h2 {
+            font-size: 35px !important;
+        }
+
+        .social-list {
+            padding: 50px;
+            margin-top: 100px;
+            text-align: center;
+            float: none;
+
+            li {
+                display: inline-block;
+
+                .fa-instagram {
+                    padding-left: 0px;
+                }
+
+                .fa-facebook-f {
+                    padding-left: 0px;
+                }
+
+                .fa-tripadvisor {
+                    padding-left: 0px;
+                }
+            }
+        }
+
+        #bonappetit {
+            display: none;
+        }
+
+        .col-11 {
+            text-align: center;
+            width: 100%;
+
+            .header {
+                margin-left: 0;
+                padding-top: 5vh;
+                padding-left: 20px;
+                padding-right: 20px;
+                font-size: 35px !important;
+            }
+
+            .button {
+                margin-left: 0;
+                margin-bottom: 100px;
+            }
+        }
+
+        #about-me {
+            .left {
+                padding: 0 5px 0 30px;
+                width: 100%;
+            }
+
+            .right {
+                display: none;
+            }
+
+            .services {
+                padding-left: 30px;
+
+                .col-3 {
+                    width: 50%;
+                }
+            }
+        }
+
+        #gray {
+            padding: 50px 20px;
+
+            .tripadvisor {
+                .col-6 {
+                    width: 100%;
+
+                    .rating {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+
+        #menu {
+            overflow: hidden;
+
+            .title {
+                margin: 20px 20px 10px 20px;
+            }
+
+            .image {
+                padding: 30px 20px;
+            }
+
+            .tabs {
+
+                .tab {
+                    margin: 0 20px;
+
+                    .col-6 {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .icons {
+                padding: 30px 20px 35px 20px;
+                margin: 0 20px;
+
+                .col-3 {
+                    width: 50%;
+
+                    .rounded-icon {
+                        margin-bottom: 25px;
+                    }
+                }
+
+            }
+        }
+
+        #gray {
+            .col-6 {
+                width: 100%;
+            }
+
+            .left {
+                h3 {
+                    .watercolor62::before {
+                        top: 50px;
+                    }
+                }
+            }
+
+            .right {
+                float: left;
+            }
+
+            .col-4 {
+                width: 100%;
+            }
+        }
+
+        #happy {
+            .title {
+                margin: 20px 10px 10px 10px;
+            }
+
+            .image {
+                padding: 40px 20px;
+            }
+
+            .tabs-2 {
+                .tab {
+                    margin: 0 20px;
+
+                    .col-6 {
+                        width: 100%;
+                    }
+
+                    .col-4 {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        #gray {
+            .col-8 {
+                display: none;
+            }
+        }
+
+        #blog {
+            .borderline {
+                margin: 35px 20px;
+            }
+
+            .blog-images {
+                padding: 0 20px;
+
+                .col-6 {
+                    width: 100%;
+                    padding: 10px 0;
+                }
+
+                .img {
+                    height: 220px;
+                    margin: 0;
+                    width: 100%;
+                }
+
+                .text-area {
+                    .header {
+                        margin-left: 0;
+                        padding-top: 10px;
+                        width: 85%;
+                    }
+                }
+            }
+
+            .quote {
+                padding: 0 20px;
+                margin-left: 0px;
+
+                blockquote {
+                    padding-right: 10px;
+                }
+            }
+        }
+
+        #impressions {
+            .slick-slider {
+                overflow: hidden;
+                padding: 40px 25px;
+            }
+        }
+
+        #contact {
+            .form-contact {
+                padding: 0 20px;
+                margin-top: 30px;
+
+                .form {
+                    width: 100%;
+
+                    input:not([type="submit"]):not([type="image"]):not([type="button"]):not([type="checkbox"]):not([type="radio"]) {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .borderline {
+                margin: 35px 20px;
+            }
+
+            .reservation {
+                padding-left: 20px;
+                width: 100%;
+                margin-bottom: 30px;
+            }
+
+            .direction {
+                padding-right: 0;
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 375px) {
+    #header {
+        bottom: auto;
+        width: 100vw;
+        padding: 25px 50px;
+
+        #logo {
+            background-position: left;
+        }
+
+        .watercolor69 {
+            left: auto;
+            top: -135px;
+            right: 0;
+        }
+    }
+
+    #content {
+        h2 {
+            font-size: 35px !important;
+        }
+
+        .social-list {
+            padding: 50px;
+            margin-top: 100px;
+            text-align: center;
+            float: none;
+
+            li {
+                display: inline-block;
+
+                .fa-instagram {
+                    padding-left: 0px;
+                }
+
+                .fa-facebook-f {
+                    padding-left: 0px;
+                }
+
+                .fa-tripadvisor {
+                    padding-left: 0px;
+                }
+            }
+        }
+
+        #bonappetit {
+            display: none;
+        }
+
+        .col-11 {
+            text-align: center;
+            width: 100%;
+
+            .header {
+                margin-left: 0;
+                padding-top: 5vh;
+                padding-left: 20px;
+                padding-right: 20px;
+                font-size: 35px !important;
+            }
+
+            .button {
+                margin-left: 0;
+                margin-bottom: 100px;
+            }
+        }
+
+        #about-me {
+            .left {
+                padding: 0 5px 0 30px;
+                width: 100%;
+            }
+
+            .right {
+                display: none;
+            }
+
+            .services {
+                padding-left: 30px;
+
+                .col-3 {
+                    width: 50%;
+                }
+            }
+        }
+
+        #gray {
+            padding: 50px 20px;
+
+            .tripadvisor {
+                .col-6 {
+                    width: 100%;
+
+                    .rating {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+
+        #menu {
+            overflow: hidden;
+
+            .title {
+                margin: 20px 20px 10px 20px;
+            }
+
+            .image {
+                padding: 30px 20px;
+            }
+
+            .tabs {
+
+                .tab {
+                    margin: 0 20px;
+
+                    .col-6 {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .icons {
+                padding: 30px 20px 35px 20px;
+                margin: 0 20px;
+
+                .col-3 {
+                    width: 50%;
+
+                    .rounded-icon {
+                        margin-bottom: 25px;
+                    }
+                }
+
+            }
+        }
+
+        #gray {
+            .col-6 {
+                width: 100%;
+            }
+
+            .left {
+                h3 {
+                    .watercolor62::before {
+                        top: 50px;
+                    }
+                }
+            }
+
+            .right {
+                float: left;
+            }
+
+            .col-4 {
+                width: 100%;
+            }
+        }
+
+        #happy {
+            .title {
+                margin: 20px 10px 10px 10px;
+            }
+
+            .image {
+                padding: 40px 20px;
+            }
+
+            .tabs-2 {
+                .tab {
+                    margin: 0 20px;
+
+                    .col-6 {
+                        width: 100%;
+                    }
+
+                    .col-4 {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        #gray {
+            .col-8 {
+                display: none;
+            }
+        }
+
+        #blog {
+            .borderline {
+                margin: 35px 20px;
+            }
+
+            .blog-images {
+                padding: 0 20px;
+
+                .col-6 {
+                    width: 100%;
+                    padding: 10px 0;
+                }
+
+                .img {
+                    height: 220px;
+                    margin: 0;
+                    width: 100%;
+                }
+
+                .text-area {
+                    .header {
+                        margin-left: 0;
+                        padding-top: 10px;
+                        width: 85%;
+                    }
+                }
+            }
+
+            .quote {
+                padding: 0 20px;
+                margin-left: 0px;
+
+                blockquote {
+                    padding-right: 10px;
+                }
+            }
+        }
+
+        #impressions {
+            .slick-slider {
+                overflow: hidden;
+                padding: 40px 25px;
+            }
+        }
+
+        #contact {
+            .form-contact {
+                padding: 0 20px;
+                margin-top: 30px;
+
+                .form {
+                    width: 100%;
+
+                    input:not([type="submit"]):not([type="image"]):not([type="button"]):not([type="checkbox"]):not([type="radio"]) {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .borderline {
+                margin: 35px 20px;
+            }
+
+            .reservation {
+                padding-left: 20px;
+                width: 100%;
+                margin-bottom: 30px;
+            }
+
+            .direction {
+                padding-right: 0;
+                width: 100%;
+            }
+        }
+
+        .modal-header {
+            width: 330px;
+        }
+    }
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+/* Landscape */
+@media only screen and (min-width: 320px) and (max-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    #header {
+
+        #main-nav {
+            .mobile-menu {
+                padding-top: 25vh;
+            }
+        }
+    }
+
+    #content {
+        #impressions {
+            .slick-slider {
+                overflow: hidden;
+            }
+        }
+    }
+}
+
+/* ----------- iPhone X ----------- */
+/* Landscape */
+@media only screen and (min-width: 375px) and (max-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+    #header {
+
+        #main-nav {
+            .mobile-menu {
+                padding-top: 30vh;
+            }
+        }
+    }
+
+    #content {
+
+        #header #main-nav .mobile-menu {
+            padding-top: 10vh;
+        }
+
+        .col-11 {
+            text-align: center;
+            width: 100%;
+
+            .header {
+                margin-left: 0;
+                padding-top: 5vh;
+                padding-left: 50px;
+                padding-right: 50px;
+                font-size: 35px !important;
+            }
+
+            .button {
+                margin-left: 0;
+                margin-bottom: 0;
+            }
+        }
+
+        #about-me {
+            .left {
+                padding: 0 5px 0 30px;
+                width: 100%;
+            }
+
+            .right {
+                display: none;
+            }
+
+            .services {
+                padding-left: 30px;
+
+                .col-3 {
+                    width: 50%;
+                }
+            }
+        }
+
+        #gray {
+            padding: 50px 20px;
+
+            .tripadvisor {
+                .col-6 {
+                    width: 100%;
+
+                    .rating {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+
+        #menu {
+            overflow: hidden;
+
+            .title {
+                margin: 20px 20px 10px 20px;
+            }
+
+            .image {
+                padding: 30px 20px;
+            }
+
+            .tabs {
+
+                .tab {
+                    margin: 0 20px;
+
+                    .col-6 {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .icons {
+                padding: 30px 120px 35px 120px;
+                margin: 0 20px;
+            }
+        }
+
+        #gray {
+            .col-6 {
+                width: 100%;
+            }
+
+            .left {
+                h3 {
+                    .watercolor62::before {
+                        top: 50px;
+                    }
+                }
+            }
+
+            .right {
+                float: left;
+            }
+
+            .col-4 {
+                width: 100%;
+            }
+        }
+
+        #happy {
+            .title {
+                margin: 20px 10px 10px 10px;
+            }
+
+            .image {
+                padding: 40px 20px;
+            }
+
+            .tabs-2 {
+                .tab {
+                    margin: 0 20px;
+
+                    .col-6 {
+                        width: 100%;
+                    }
+
+                    .col-4 {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        #gray {
+            .col-8 {
+                display: none;
+            }
+        }
+
+        #blog {
+            .borderline {
+                margin: 35px 20px;
+            }
+
+            .blog-images {
+                padding: 0 20px;
+
+                .col-6 {
+                    width: 100%;
+                    padding: 10px 0;
+                }
+
+                .img {
+                    height: 220px;
+                    margin: 0;
+                    width: 100%;
+                }
+
+                .text-area {
+                    .header {
+                        margin-left: 0;
+                        padding-top: 10px;
+                        width: 85%;
+                    }
+                }
+            }
+
+            .quote {
+                padding: 0 20px;
+                margin-left: 0px;
+
+                blockquote {
+                    padding-right: 10px;
+                }
+            }
+        }
+
+        #impressions {
+            .slick-slider {
+                overflow: hidden;
+                padding: 40px 25px;
+            }
+        }
+
+        #contact {
+            .form-contact {
+                padding: 0 20px;
+                margin-top: 30px;
+
+                .form {
+                    width: 100%;
+
+                    input:not([type="submit"]):not([type="image"]):not([type="button"]):not([type="checkbox"]):not([type="radio"]) {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .borderline {
+                margin: 35px 20px;
+            }
+
+            .reservation {
+                padding-left: 20px;
+                width: 100%;
+                margin-bottom: 30px;
+            }
+
+            .direction {
+                padding-right: 0;
+                width: 100%;
+            }
+        }
+    }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+/* Landscape */
+@media only screen and (min-width: 375px) and (max-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    #header {
+        #main-nav {
+            .mobile-menu {
+                padding-top: 30vh;
+            }
+        }
+    }
+}
