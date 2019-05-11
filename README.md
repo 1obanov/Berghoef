@@ -1,7 +1,7 @@
 # Berghoef - One Page Restaurant Template.
 Please look at my perfectly responsive website.
 
-#### Live preview --> [Bergoef - One Page Restaurant Template](https://1obanov.github.io/Berghoef/)
+#### Live preview --> [Bergoef - One Page Restaurant Template](https://1obanov.github.io/Bergoef/)
 
 ## Built with:
 
